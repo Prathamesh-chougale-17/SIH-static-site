@@ -10,8 +10,14 @@ This is Static site for our Smart India Hackthon Project.
    git clone https://github.com/Smart-India-Hackathon-pccoe/SIH-static-site.git
    ```
 
-2. Install dependencies: ```npm install```
+2. Install dependencies: 
+   ```terminal
+   npm install
+   ```
 
-3. Run the project: ```nodemon app.js```
+3. Run the project: 
+   ```terminal
+   nodemon app.js
+   ```
 
 ### Note: Make sure you have node.js installed in your system.
