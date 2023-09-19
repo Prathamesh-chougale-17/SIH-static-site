@@ -20,8 +20,6 @@ This is Static site for our Smart India Hackthon Project.
    nodemon app.js
    ```
 
-4. The project should be running on browser at ```
-    http://localhost:3000
-      ```
+4. The project should be running on browser at : http://localhost:3000
 
 ### Note: Make sure you have node.js installed in your system.
