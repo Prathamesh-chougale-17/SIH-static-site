@@ -457,4 +457,4 @@ document.addEventListener('DOMContentLoaded', () => {
    */
   // new PureCounter();
 
-})()
+})();
