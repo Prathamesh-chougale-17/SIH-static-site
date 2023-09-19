@@ -1638,7 +1638,7 @@ position: absolute;
 width: 100%;
 height: 600px;
 top: 0px;
-background: url("../img/sih-background.png") no-repeat center center/cover;
+background: url("../img/sih-background.png") no-repeat top center/cover;
 }
 
 .hero-size{
@@ -1877,7 +1877,7 @@ button, input {
   z-index: 100;
 }
 .header-size{
-  height: 100px6
+  height: 100px;
 }
 
 .nice-container{
