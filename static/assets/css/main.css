@@ -1877,5 +1877,10 @@ button, input {
   z-index: 100;
 }
 .header-size{
-  height: 100px;
+  height: 100px6
+}
+
+.nice-container{
+  padding: 60px;
+  margin: 20px auto;
 }

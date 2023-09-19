@@ -38,7 +38,7 @@ app.get('/contact', (req, res) => {
     res.render('contact')
 });
 app.get('/resource', (req, res) => {
-    res.render('services')
+    res.render('resource')
 });
 app.get('/about', (req, res) => {
     res.render('about')
