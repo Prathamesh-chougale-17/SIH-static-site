@@ -1637,7 +1637,7 @@ content: "";
 position: absolute;
 width: 100%;
 height: 600px;
-top: 0px;
+top: 100px;
 background: url("../img/sih-background.png") no-repeat top center/cover;
 }
 
@@ -1883,4 +1883,52 @@ button, input {
 .nice-container{
   padding: 60px;
   margin: 20px auto;
+}
+
+.black.box {
+  --shadow-color: hsla(0, 67%, 92%, 0.5);
+}
+.darker.box {
+  --shadow-color: hsl(220deg 100% 50%);
+}
+.goldilocks.box {
+  --shadow-color: hsl(220deg 60% 50%);
+}
+.box {
+  filter: drop-shadow(
+    1px 2px 8px var(--shadow-color)
+  );
+  padding-right: 4px;
+  margin-right: 8px;
+}
+.s-box{
+  display: flex;
+  flex-direction: row;
+  /* gap: 32px; */
+}
+.temp{
+  width: 100%;
+  display: flex;
+  flex-direction: column;
+  align-items: center;
+}
+.temp2{
+width: 1100px;
+/* border: #18d26e 2px solid; */
+display: flex;
+}
+
+.small-boxi{
+    width: 480px;
+    display: block;
+    height: 50px;
+    margin: 0 10px;
+    justify-content: center;
+    align-items: center;
+    border-radius: 5px;
+    background: linear-gradient(to right, #abbd73 35%, #d6e2ad 100%);
+    margin-bottom: 40px;
+    padding: 15px 25px 0 40px;
+    color: darkslategray;
+    transition: background 200ms ease-in-out;
 }
