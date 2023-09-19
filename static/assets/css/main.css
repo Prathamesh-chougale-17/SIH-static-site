@@ -1637,7 +1637,8 @@ content: "";
 position: absolute;
 width: 100%;
 height: 600px;
-top: 100px;
+top: 0px;
+/* top: 100px; */
 background: url("../img/sih-background.png") no-repeat top center/cover;
 }
 
