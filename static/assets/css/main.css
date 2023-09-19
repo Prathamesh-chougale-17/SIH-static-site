@@ -1359,11 +1359,19 @@ input::placeholder {
   position: relative;
 }
 
-.resume .resume-item h4 {
+.resume .resume-item h3 {
   line-height: 18px;
-  font-size: 18px;
+  font-size: 30px;
   font-weight: 600;
   text-transform: uppercase;
+  font-family: "Poppins", sans-serif;
+  color: #18d26e;
+  margin-bottom: 10px;
+}
+.resume .resume-item h4 {
+  line-height: 18px;
+  font-size: 26px;
+  font-weight: 600;
   font-family: "Poppins", sans-serif;
   color: #18d26e;
   margin-bottom: 10px;
@@ -1398,6 +1406,64 @@ input::placeholder {
   border-radius: 50px;
   left: -9px;
   top: 0;
+  background: #18d26e;
+  border: 2px solid #18d26e;
+}
+
+.resume-item .resume-item-child {
+  padding: 0 0 20px 20px;
+  margin-top: -2px;
+  border-left: 2px solid rgba(255, 255, 255, 0.2);
+  position: relative;
+}
+
+.resume-item .resume-item-child h3 {
+  line-height: 18px;
+  font-size: 30px;
+  font-weight: 600;
+  text-transform: uppercase;
+  font-family: "Poppins", sans-serif;
+  color: #18d26e;
+  margin-bottom: 10px;
+}
+.resume-item .resume-item-child h4 {
+  line-height: 18px;
+  font-size: 20px;
+  font-weight: 600;
+  /* font-family: "Poppins", sans-serif; */
+  color: #18d26e;
+  margin-bottom: 10px;
+}
+
+.resume-item .resume-item-child h5 {
+  font-size: 16px;
+  background: rgba(255, 255, 255, 0.15);
+  padding: 5px 15px;
+  display: inline-block;
+  font-weight: 600;
+  margin-bottom: 10px;
+}
+
+.resume-item .resume-item-child ul {
+  padding-left: 20px;
+}
+
+.resume-item .resume-item-child ul li {
+  padding-bottom: 10px;
+}
+
+.resume-item .resume-item-child:last-child {
+  padding-bottom: 0;
+}
+
+.resume-item .resume-item-child::before {
+  content: "";
+  position: absolute;
+  width: 10px;
+  height: 10px;
+  border-radius: 25px;
+  left: -5px;
+  top: 3px;
   background: #18d26e;
   border: 2px solid #18d26e;
 }
