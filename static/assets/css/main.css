@@ -1637,11 +1637,12 @@ content: "";
 position: absolute;
 width: 100%;
 height: 600px;
-background: url("../img/coaching.webp") no-repeat center center/cover;
+top: 0px;
+background: url("../img/sih-background.png") no-repeat center center/cover;
 }
 
 .hero-size{
-  height: 250px;
+  height: 420px;
 }
 
 .select-padding{
@@ -1870,4 +1871,11 @@ button, input {
   .screen-body-item {
     padding: 0;
   }
+}
+.hero p{
+  color: #88e615;
+  z-index: 100;
+}
+.header-size{
+  height: 100px;
 }

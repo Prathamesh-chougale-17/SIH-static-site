@@ -49,17 +49,15 @@
         </div>
     </header>
     <section>
-        <div class="container justify-content-center align-items-center hero-size">
-
-        </div>
+        <div class="container justify-content-center align-items-center header-size"></div>
     </section>
+    <h2 class="text-center">
+        <em>Unlocking the future: Tackling student dropout for a brighter tomorrow</em>
+    </h2>
     <section class="hero d-flex flex-column justify-content-center align-items-center" data-aos="fade"
-        data-aos-delay="1500">
-    </section>
+        data-aos-delay="1500"></section>
     <section>
-        <div class="container justify-content-center align-items-center hero-size">
-
-        </div>
+        <div class="container justify-content-center align-items-center hero-size"></div>
     </section>
     <section class="d-flex flex-column justify-content-center align-items-center" data-aos="fade" data-aos-delay="1500">
         <a class="button-animation" href="#"><span>Get Started</span></a>
@@ -67,7 +65,7 @@
 
     <section class="select-padding">
         <div class="container justify-content-center align-items-center">
-            <div class="container d-flex align-item-center justify-content-between ">
+            <div class="container d-flex align-item-center justify-content-between">
                 <div class="small-container justify-content-center align-item-center">
                     <select>
                         <option selected value="0">State</option>
@@ -118,8 +116,8 @@
                     </select>
                 </div>
             </div>
-            <div class="container d-flex align-item-center justify-content-between select-bar-padding">
-                <div class="small-container d-flex align-item-center justify-content-center">
+            <div class="container d-flex align-item-center justify-content-between">
+                <div class="small-container d-flex align-item-center justify-content-center select-bar-padding">
                     <select>
                         <option selected value="0">Gender</option>
                         <option value="1">No Wrapper</option>
@@ -127,7 +125,7 @@
                         <option value="3">Nice!</option>
                     </select>
                 </div>
-                <div class="small-container d-flex align-item-center justify-content-center">
+                <div class="small-container d-flex align-item-center justify-content-center select-bar-padding">
                     <select>
                         <option selected value="0">Age</option>
                         <option value="1">No Wrapper</option>
@@ -135,7 +133,6 @@
                         <option value="3">Nice!</option>
                     </select>
                 </div>
-
             </div>
         </div>
     </section>
@@ -148,44 +145,54 @@
                         <h5 class="card-title">Bar Chart</h5>
 
                         <!-- Bar Chart -->
-                        <canvas id="barChart" style="max-height: 400px;"></canvas>
+                        <canvas id="barChart" style="max-height: 400px"></canvas>
                         <script>
                             document.addEventListener("DOMContentLoaded", () => {
-                                new Chart(document.querySelector('#barChart'), {
-                                    type: 'bar',
+                                new Chart(document.querySelector("#barChart"), {
+                                    type: "bar",
                                     data: {
-                                        labels: ['January', 'February', 'March', 'April', 'May', 'June', 'July'],
-                                        datasets: [{
-                                            label: 'Bar Chart',
-                                            data: [65, 59, 80, 81, 56, 55, 40],
-                                            backgroundColor: [
-                                                'rgba(255, 99, 132, 0.2)',
-                                                'rgba(255, 159, 64, 0.2)',
-                                                'rgba(255, 205, 86, 0.2)',
-                                                'rgba(75, 192, 192, 0.2)',
-                                                'rgba(54, 162, 235, 0.2)',
-                                                'rgba(153, 102, 255, 0.2)',
-                                                'rgba(201, 203, 207, 0.2)'
-                                            ],
-                                            borderColor: [
-                                                'rgb(255, 99, 132)',
-                                                'rgb(255, 159, 64)',
-                                                'rgb(255, 205, 86)',
-                                                'rgb(75, 192, 192)',
-                                                'rgb(54, 162, 235)',
-                                                'rgb(153, 102, 255)',
-                                                'rgb(201, 203, 207)'
-                                            ],
-                                            borderWidth: 1
-                                        }]
+                                        labels: [
+                                            "January",
+                                            "February",
+                                            "March",
+                                            "April",
+                                            "May",
+                                            "June",
+                                            "July",
+                                        ],
+                                        datasets: [
+                                            {
+                                                label: "Bar Chart",
+                                                data: [65, 59, 80, 81, 56, 55, 40],
+                                                backgroundColor: [
+                                                    "rgba(255, 99, 132, 0.2)",
+                                                    "rgba(255, 159, 64, 0.2)",
+                                                    "rgba(255, 205, 86, 0.2)",
+                                                    "rgba(75, 192, 192, 0.2)",
+                                                    "rgba(54, 162, 235, 0.2)",
+                                                    "rgba(153, 102, 255, 0.2)",
+                                                    "rgba(201, 203, 207, 0.2)",
+                                                ],
+                                                borderColor: [
+                                                    "rgb(255, 99, 132)",
+                                                    "rgb(255, 159, 64)",
+                                                    "rgb(255, 205, 86)",
+                                                    "rgb(75, 192, 192)",
+                                                    "rgb(54, 162, 235)",
+                                                    "rgb(153, 102, 255)",
+                                                    "rgb(201, 203, 207)",
+                                                ],
+                                                borderWidth: 1,
+                                            },
+                                        ],
                                     },
                                     options: {
                                         scales: {
                                             y: {
-                                                beginAtZero: true
-                                            }
-                                        }
-                                    }
+                                                beginAtZero: true,
+                                            },
+                                        },
+                                    },
                                 });
                             });
                         </script>
