@@ -1626,7 +1626,7 @@ select {
 }
  
 .select-bar-padding{  
-  padding: 4rem 12rem;
+  padding: 4rem 6rem;
 }
 select::-webkit-scrollbar {
   display: none;
