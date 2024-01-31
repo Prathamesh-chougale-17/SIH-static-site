@@ -2,57 +2,56 @@
 <html lang="en">
 
 <head>
-    <meta charset="utf-8">
-    <meta content="width=device-width, initial-scale=1.0" name="viewport">
+    <meta charset="utf-8" />
+    <meta content="width=device-width, initial-scale=1.0" name="viewport" />
 
     <title>Student Dropout</title>
-    <meta content="" name="description">
-    <meta content="" name="keywords">
-    <link href="../static/assets/img/favicon.ico" rel="icon">
-    <link href="../static/assets/img/apple-touch-icon.png" rel="apple-touch-icon">
-    <link rel="preconnect" href="https://fonts.googleapis.com">
-    <link rel="preconnect" href="https://fonts.gstatic.com" crossorigin>
+    <meta content="" name="description" />
+    <meta content="" name="keywords" />
+    <link href="../static/assets/img/favicon.ico" rel="icon" />
+    <link href="../static/assets/img/apple-touch-icon.png" rel="apple-touch-icon" />
+    <link rel="preconnect" href="https://fonts.googleapis.com" />
+    <link rel="preconnect" href="https://fonts.gstatic.com" crossorigin />
     <link
         href="https://fonts.googleapis.com/css2?family=Open+Sans:ital,wght@0,300;0,400;0,500;0,600;0,700;1,300;1,400;1,600;1,700&family=Inter:ital,wght@0,300;0,400;0,500;0,600;0,700;1,300;1,400;1,500;1,600;1,700&family=Cardo:ital,wght@0,400;0,700;1,400&display=swap"
-        rel="stylesheet">
+        rel="stylesheet" />
     <link href="../static/assets/vendor/boxicons/css/boxicons.min.css" rel="stylesheet" />
-    <link href="../static/assets/vendor/bootstrap/css/bootstrap.min.css" rel="stylesheet">
-    <link href="../static/assets/vendor/bootstrap-icons/bootstrap-icons.css" rel="stylesheet">
-    <link href="../static/assets/vendor/swiper/swiper-bundle.min.css" rel="stylesheet">
-    <link href="../static/assets/vendor/glightbox/css/glightbox.min.css" rel="stylesheet">
+    <link href="../static/assets/vendor/bootstrap/css/bootstrap.min.css" rel="stylesheet" />
+    <link href="../static/assets/vendor/bootstrap-icons/bootstrap-icons.css" rel="stylesheet" />
+    <link href="../static/assets/vendor/swiper/swiper-bundle.min.css" rel="stylesheet" />
+    <link href="../static/assets/vendor/glightbox/css/glightbox.min.css" rel="stylesheet" />
     <link href="../static/assets/vendor/quill/quill.snow.css" rel="stylesheet" />
     <link href="../static/assets/vendor/quill/quill.bubble.css" rel="stylesheet" />
     <link href="../static/assets/vendor/remixicon/remixicon.css" rel="stylesheet" />
     <link href="../static/assets/vendor/simple-datatables/style.css" rel="stylesheet" />
-    <link href="../static/assets/vendor/aos/aos.css" rel="stylesheet">
-    <link href="../static/assets/css/main.css" rel="stylesheet">
+    <link href="../static/assets/vendor/aos/aos.css" rel="stylesheet" />
+    <link href="../static/assets/css/main.css" rel="stylesheet" />
 </head>
 
 <body>
     <header id="header" class="header d-flex align-items-center fixed-top">
         <div class="container-fluid d-flex align-items-center justify-content-center">
-
-            <a href="/" class="logo d-flex align-items-center  me-auto me-lg-0">
-            </a>
+            <a href="/" class="logo d-flex align-items-center me-auto me-lg-0"> </a>
 
             <nav id="navbar" class="navbar">
                 <ul>
                     <li><a href="/" class="active">Home</a></li>
                     <li><a href="about">About</a></li>
                     <li><a href="resource">Resource</a></li>
+                    <li><a href="schema">Schema</a></li>
                     <li><a href="contact">Contact</a></li>
                 </ul>
             </nav>
             <i class="mobile-nav-toggle mobile-nav-show bi bi-list"></i>
             <i class="mobile-nav-toggle mobile-nav-hide d-none bi bi-x"></i>
-
         </div>
     </header>
     <section>
         <div class="container justify-content-center align-items-center header-size"></div>
     </section>
     <h2 class="text-center">
-        <em>Unlocking the future: Tackling student dropout for a brighter tomorrow</em>
+        <em>Unlocking the Future: Tackling Student Dropout for a Brighter
+            Tomorrow</em>
     </h2>
     <section class="hero d-flex flex-column justify-content-center align-items-center" data-aos="fade"
         data-aos-delay="1500"></section>
@@ -68,7 +67,7 @@
             <div class="container d-flex align-item-center justify-content-between">
                 <div class="small-container justify-content-center align-item-center">
                     <select>
-                        <option selected value="0">State</option>
+                        <option selected value="0">State(all)</option>
                         <option value="1">Andhra Pradesh</option>
                         <option value="2">Arunachal Pradesh</option>
                         <option value="3">Assam</option>
@@ -102,17 +101,13 @@
                 <div class="small-container justify-content-center align-item-center">
                     <select>
                         <option selected value="0">Area</option>
-                        <option value="1">No Wrapper</option>
-                        <option value="2">No JS</option>
-                        <option value="3">Nice!</option>
+                        <option value="1">Yet to be assigned</option>
                     </select>
                 </div>
                 <div class="small-container justify-content-center align-item-center">
                     <select>
                         <option selected value="0">Caste</option>
-                        <option value="1">No Wrapper</option>
-                        <option value="2">No JS</option>
-                        <option value="3">Nice!</option>
+                        <option value="1">Yet to be assigned</option>
                     </select>
                 </div>
             </div>
@@ -120,17 +115,34 @@
                 <div class="small-container d-flex align-item-center justify-content-center select-bar-padding">
                     <select>
                         <option selected value="0">Gender</option>
-                        <option value="1">No Wrapper</option>
-                        <option value="2">No JS</option>
-                        <option value="3">Nice!</option>
+                        <option value="1">Male</option>
+                        <option value="2">Female</option>
+                        <option value="3">Others</option>
                     </select>
                 </div>
                 <div class="small-container d-flex align-item-center justify-content-center select-bar-padding">
                     <select>
                         <option selected value="0">Age</option>
-                        <option value="1">No Wrapper</option>
-                        <option value="2">No JS</option>
-                        <option value="3">Nice!</option>
+                        <option value="7">7</option>
+                        <option value="8">8</option>
+                        <option value="9">9</option>
+                        <option value="10">10</option>
+                        <option value="11">11</option>
+                        <option value="12">12</option>
+                        <option value="13">13</option>
+                        <option value="14">14</option>
+                        <option value="15">15</option>
+                        <option value="16">16</option>
+                        <option value="17">17</option>
+                        <option value="18">18</option>
+                        <option value="19">19</option>
+                        <option value="20">20</option>
+                        <option value="21">21</option>
+                        <option value="22">22</option>
+                        <option value="23">23</option>
+                        <option value="24">24</option>
+                        <option value="25">25</option>
+                        <option value="26">26</option>
                     </select>
                 </div>
             </div>
@@ -204,15 +216,13 @@
 
     <main id="main" data-aos="fade" data-aos-delay="1500">
         <section id="gallery" class="gallery">
-            <div class="container-fluid">
-            </div>
+            <div class="container-fluid"></div>
         </section>
     </main>
     <footer id="footer" class="footer">
-        <div class="container">
-
-        </div>
-    </footer><!-- End Footer -->
+        <div class="container"></div>
+    </footer>
+    <!-- End Footer -->
 
     <a href="#" class="scroll-top d-flex align-items-center justify-content-center"><i
             class="bi bi-arrow-up-short"></i></a>
@@ -234,7 +244,6 @@
 
     <!-- Template Main JS File -->
     <script src="../static/assets/js/main.js"></script>
-
 </body>
 
 </html>

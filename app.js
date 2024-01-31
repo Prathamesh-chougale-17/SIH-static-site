@@ -40,6 +40,9 @@ app.get('/contact', (req, res) => {
 app.get('/resource', (req, res) => {
     res.render('resource')
 });
+app.get('/scheme', (req, res) => {
+    res.render('scheme')
+});
 app.get('/about', (req, res) => {
     res.render('about')
 });
